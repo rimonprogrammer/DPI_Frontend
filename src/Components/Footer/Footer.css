@@ -1,0 +1,285 @@
+.footer-top{
+    height: 200px;
+    background: #18191A;
+}
+.footer-overflow{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: aliceblue;
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+.footer {
+    overflow: hidden;
+    background: #18191A;
+    padding-top: 60px;
+    height: 370px;
+    z-index: 1;
+  }
+  .footer::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('/src/assets/Img//footer-shape1.png');
+    animation: imgChange .8s linear 1s infinite;
+    -webkit-animation: imgChange .8s linear 1s infinite;
+}
+  .footer::before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('/src/assets/Img//footer-shape2.png');
+    animation: imgChangeTwo .8s linear 1s infinite;
+    -webkit-animation: imgChangeTwo .8s linear 1s infinite;
+}
+  @keyframes imgChange {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes imgChangeTwo {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+/* ------- footer-intro starting----- */
+.footer-intro > .footer-logo > img{
+    height: 60px;
+}
+.footer-intro > .footer-logo > h2{
+    font-family: serif;
+    padding-left: 10px;
+    color: #cdcdcd;
+    font-size: 25px;
+}
+.footer-intro > p{
+    color: #cdcdcd;
+}
+/* ------- footer-intro ending ----- */
+
+
+
+.footer > div > div > div > h4{
+    position: relative;
+    color: orangered;
+    font-weight: 900;
+}
+.footer > div > div > div > h4::after{
+    position: absolute;
+    content: '';
+    bottom: 0%;
+    left: 0%;
+    height: 2px;
+    width: 80%;
+    background-color: orangered;
+}
+.footer > div > div > div > ul > li{
+    list-style: none;
+    margin-top: 15px;
+}
+.footer > div > div > div > ul > li,
+.footer > div > div > div > ul > li > a{
+    text-decoration: none;
+    color: rgb(184, 184, 184);
+    font-weight: bold;
+    position: relative;
+    font-size: 17px;
+}
+.footer > div > div > div > ul > li > a::after{
+    position: absolute;
+    content: '';
+    bottom: 0%;
+    left: 0%;
+    height: 2px;
+    width: 20%;
+    background-color: orangered;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+.footer > div > div > div > ul > li > a:hover{
+    color: orangered !important;
+}
+.footer > div > div > div > ul > li > a:hover:after{
+    width: 100%;
+}
+.footer-menu,
+.footer-service{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-menu,
+.footer-service{
+    margin-left: -50px;
+}
+.footer-menu > h4{
+    margin-left: -10px;
+}
+.footer-contact{
+    margin-left: 30px;
+}
+.footer-contact > h4{
+    padding-left: 30px;
+}
+.footer-contact > h4::after{
+    left: 10% !important;
+    width: 15% !important;
+}
+.footer-contact > ul > li{
+    display: flex;
+    margin-top: 1px !important;
+}
+.footer-contact > ul > li > i{
+    margin-right: 6px;
+    height: 25px;
+    width: 25px;
+    margin-top: 4px;
+    padding-left: 7px;
+    display: flex;
+    cursor: pointer;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    color: #150e0e;
+    border-radius: 100px;
+    background-color: rgb(255, 224, 212);
+    transition: all .3s ease;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+.footer-contact > ul > li > i:hover{
+    color: rgb(253, 253, 253) !important;
+    background-color: orangered !important;
+}
+.footer-contact-icons{
+    margin-left: 30px;
+    display: flex;
+    gap: 20px;
+}
+.footer-contact-icons > a{
+    text-decoration: none;
+}
+.footer-contact-icons > a > i{
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: rgb(3, 3, 3) !important;
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+.footer-contact-icons > a > i:hover{
+    color: rgb(255, 255, 255) !important;
+    background-color: orangered !important;
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+.footer > div > hr{
+    display: block;
+    margin-top: 20px !important;
+    margin-bottom: -10px !important;
+}
+.return-back-btn{
+    position: fixed;
+    right: 10%;
+    top: 80%;
+    z-index: 5;
+    transition: all 5s ease;
+    animation: return-btn 2s linear infinite;
+    -webkit-animation: return-btn .8s linear infinite;
+    -webkit-transition: all 5s ease;
+    -moz-transition: all 5s ease;
+    -ms-transition: all 5s ease;
+    -o-transition: all 5s ease;
+}
+@keyframes return-btn{
+    0% { transform:translateY(5px) ; -webkit-transform:translateY(5px) ; -moz-transform:translateY(5px) ; -ms-transform:translateY(5px) ; -o-transform:translateY(5px) ; }
+    100% { transform:translateY(0px) ; -webkit-transform:translateY(0px) ; -moz-transform:translateY(0px) ; -ms-transform:translateY(0px) ; -o-transform:translateY(0px) ; }
+}
+
+
+
+
+/* >>>>>>>>>>>>> responsive section starting <<<<<<<<<<<<<< */
+@media (max-width: 768px){
+    .footer {
+        padding-top: 580px;
+        padding-bottom: 550px;
+    }
+    .footer-intro > div > img,
+    .footer-intro > p{
+        margin-left: 10px;
+    }
+    .footer-intro > div > h2{
+        margin-top: -0px !important;
+    }
+    .footer > div > div > div > h4::after{
+        width: 20%;
+    }
+    .footer-menu,
+    .footer-service,
+    .footer-contact{
+        margin-top: 20px;
+    }
+    .footer-contact > h4::after{
+        width: 30% !important;
+    }
+    .footer-contact > ul{
+        padding-left: 50px;
+    }
+    .footer-menu,
+    .footer-service{
+        display: block;
+    }
+    .footer-menu,
+    .footer-service{
+        margin-left: -0px;
+    }
+    .footer-contact{
+        margin-left: -30px !important;
+    }
+    .footer-menu > h4{
+        margin-left: 0px;
+    }
+}

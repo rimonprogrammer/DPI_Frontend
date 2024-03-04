@@ -1,0 +1,42 @@
+.campus{
+    margin-bottom: 130px;
+    padding-bottom: 20px;
+}
+.campus-title{
+    margin-top: 130px;
+}
+.compus-image{
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.compus-image > .campus-content{
+    width: 350px;
+    height: 300px;
+    overflow: hidden;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.compus-image > .campus-content > img{
+    object-fit: cover;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+.campus-social{
+    font-weight: 900;
+    background-color: #042234;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* ---------- responsive section starting ----------*/
+@media (max-width: 768px){
+    .campus{
+        margin-bottom: 80px;
+    }
+    .campus-title{
+        margin-top: 50px;
+    }
+    .carousel-item{
+        height: 300px;
+     }
+}
+/* ---------responsive section ending ------------- */

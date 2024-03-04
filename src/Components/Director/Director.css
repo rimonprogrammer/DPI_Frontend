@@ -1,0 +1,93 @@
+.Director{
+    padding: 30px 0 50px 0;
+    margin-bottom: 130px;
+    background-color: #e0f1fc;
+}
+
+/* ----- left / img section starting -------- */
+.director-content-img{
+    width: 450px;
+    cursor: pointer;
+    overflow: hidden;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
+/* ===========================================================
+>>>>>> overflow related code into the (common.css) file <<<<<
+============================================================ */
+
+
+
+/* ----- right / text section starting -------- */
+.director-content-text{
+    padding: 20px 0 0 40px;
+    color: rgb(59, 59, 59);
+}
+.director-content-text > p{
+    max-width: 520px;
+    font-weight: 500;
+}
+.director-content-text > h4{
+    font-family:'Courier New', Courier, monospace
+}
+.director-content-text > h4,
+.director-content-text > h5,
+.director-content-text > span{
+    font-weight: bold;
+}
+.director-content-footer-social > i{
+    font-size: 60px;
+    cursor: pointer;
+}
+.director-content-footer-social > div > p{
+    font-size: 20px;
+    padding-bottom: 5px;
+    font-family: 'lemon', sans-serif;
+}
+.director-content-footer-social > div > p,
+.director-content-footer-social > div > span{
+    margin: 0%;
+}
+.director-content-footer-social > div > span{
+    font-weight: bold;
+    font-size: 18px;
+}
+.director-footer-email{
+    padding-left: 100px;
+}
+/* ----- right / text section ending -------- */
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: brown;
+}
+
+
+
+
+@media (max-width:992px){
+    .carousel-content-details{
+        display: block;
+    }
+}
+@media (max-width:768px){
+    .Director{
+        margin-bottom: 50px;
+    }
+    .director-content{
+        justify-content: center;
+    }
+    .director-content-text{
+        padding: 20px 0 0 0px;
+    }
+    .director-content-footer{
+        display: block;
+    }
+    .director-footer-email{
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+}
