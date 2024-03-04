@@ -1,6 +1,6 @@
 
 <h4>DPI Educational website</h4>
-<p>This is an educational website. This website is created for Darpon Polytechnic Institute. In this project, I've implemented a user authentication with Bcryor-JS for security, admin access, updatable notice section, all teacher, institute gallery section, contact section with formspree, responsive & visually stunning layout, etc.
+<p>This is an educational website. This website is created for Darpon Polytechnic Institute. In this project, I've implemented a user authentication with Bcryor-JS for security, admin panel, updatable notice section, all teacher, institute gallery section, contact section with formspree, responsive & visually stunning layout, etc.
 </p>
 
 <h4>Using technologies & packages</h4>
