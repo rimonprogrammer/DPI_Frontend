@@ -1,0 +1,62 @@
+/* --------- teacher-details section starting --------- */
+.Teachers{
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 30px;
+    justify-content: center;
+}
+.Teachers-details{
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.Teachers-details > div{
+    width: 350px;
+    height: 350px;
+}
+.Teachers-details > div > img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(203, 203, 203);
+}
+.teacher-details-content{
+    position: relative;
+    overflow: hidden;
+}
+
+.content-details-box > h5{
+    font-weight: bold;
+    color: aqua;
+}
+.content-details-box > p{
+    font-weight: 550;
+    color: rgb(244, 244, 244);
+}
+/* --------- teacher-details section ending --------- */
+
+
+
+/* ===========================================================
+>>>>>> overflow related code into the (common.css) file <<<<<
+============================================================ */
+
+
+
+/* ------------  responsive section starting -------------  */
+@media (max-width: 768px){
+    .Teachers-details{
+        width: 350px;
+        height: 350px;
+    }
+    .Teachers-details > div{
+        width: 350px;
+        height: 350px;
+    }
+    .teacher-details-box{
+        top: 70%;
+    }
+}
+/* ------------  responsive section ending -------------  */

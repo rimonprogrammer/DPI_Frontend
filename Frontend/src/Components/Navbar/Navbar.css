@@ -1,0 +1,289 @@
+
+/* ----------top header section start -------------*/
+
+/* ----- top left section starting ----- */
+.top-header{
+    height: 50px;
+    background-color: #293341;
+}
+.top-header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-header-contact{
+    display: flex;
+    align-items: center;
+}
+.top-header-contact > p{
+    color: #ffffff;
+    font-weight: 700;
+    padding-top: 12px;
+}
+.IoCall{
+    margin-top: -5px;
+}
+.MdEmail{
+    margin-left: 25px;
+    font-size: 18px;
+}
+/* ----- top left section ending ----- */
+
+/* ----- top right section starting ----- */
+.top-header-right{
+    display: flex;
+    align-items: center;
+}
+.top-header-authentication > button,
+.authenticationBtn{
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border: 2px solid aqua;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    padding: 3px 13px;
+    transition: all .4s ease;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+}
+.top-header-authentication > button:hover,
+.authenticationBtn:hover{
+    border: 2px solid rgb(255, 255, 255);
+    color: aqua;
+}
+.logout,
+.logout:hover{
+    background-color: #042234;
+    border: 2px solid rgb(0, 255, 255);
+}
+.top-header-display > img{
+    height: 32px;
+    cursor: pointer;
+    margin-left: 10px;
+    animation: animate 2s linear infinite;
+    -webkit-animation: animate 2s linear infinite;
+}
+@keyframes animate {
+    0%{ transform:rotate(0deg) ; -webkit-transform:rotate(0deg) ; -moz-transform:rotate(0deg) ; -ms-transform:rotate(0deg) ; -o-transform:rotate(0deg) ; }
+    100%{ transform:rotate(360deg) ; -webkit-transform:rotate(360deg) ; -moz-transform:rotate(360deg) ; -ms-transform:rotate(360deg) ; -o-transform:rotate(360deg) ; }
+}
+/* ----- top right section ending ----- */
+
+/* ------------ theme section starting ------------ */
+.theme-section{
+    top: 55px;
+    width: 220px;
+    z-index: 2;
+    right: 8%;
+    position: absolute;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+.theme-section > .theme-box{
+    display: flex;
+    justify-content: center;
+}
+.theme-section > .theme-box > div{
+    border: none;
+    outline: none;
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    cursor: pointer;
+}
+.themSelect{
+    border: 5px solid rgb(223, 145, 0) !important;
+}
+.theme-section > p{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: serif;
+}
+.theme-section > div > .green{
+    background-color: #00715C;
+}
+.theme-section > div > .blue{
+    background-color: #00556D;
+}
+.theme-section > div > .dark{
+    background-color: #18191A;
+}
+.theme-section > div > .black{
+    background-color: #0C0D1B;
+}
+.setting-link{
+    color: white;
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #042234;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+}
+.setting-link:hover{
+    background-color: #00556D;
+}
+.setting {
+    display: flex;
+    padding: 7px;
+    align-items: center;
+    justify-content: center;
+}
+.setting-icons{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    color: #042234;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+.setting-add-icons{
+    height: 20px;
+    width: 20px;
+}
+/* ------------ theme section ending ------------ */
+
+/* -------------------------------------------------
+------------ top header section ending -------------
+-------------------------------------------------- */
+
+
+/* -------------------------------------------------
+---------------- navbar section starting ---------------
+-------------------------------------------------- */
+header{
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgb(0, 4, 39);
+}
+.fixed-top{
+    background-color: #18191A;
+    box-shadow: 0 0 5px beige;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+}
+.fixed-top > nav > .text-decoration-none > p > span,
+.fixed-top > nav > .text-decoration-none > p > span > span,
+.fixed-top > nav > div > ul > li > .nav-link{
+    color: beige !important;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+}
+.navbar-brand{
+    height: 50px;
+    margin: 0%;
+    padding: 0%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
+.navbar-brand > img{
+    height: 50px;
+    margin: 0%;
+    padding: 0%;
+}
+.navbar-brand > span > span{
+    font-weight: 900;
+    color: rgb(0, 17, 54) ;
+}
+.navbar-toggler{
+    border: none;
+    outline: none;
+}
+.navbar-toggler > img{
+    height: 30px;
+    width: 30px;
+}
+.actives{
+    font-weight: bold;
+    position: relative;
+    color: orangered !important;
+}
+.actives::after{
+    position: absolute;
+    content: '';
+    right: 0;
+    bottom: 8px;
+    width: 100%;
+    height: 2px;
+    background-color: orangered;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.nav-item{
+    padding: 0 10px 0 10px ;
+}
+.nav-link{
+    font-weight: 700;
+    color: #0F172A;
+    font-size: 16px;
+}
+/* -------------------------------------------------
+----------------- navbar section end ---------------
+-------------------------------------------------- */
+
+
+/* -------------------------------------------------
+------------ responsive section start -------------
+-------------------------------------------------- */
+@media (max-width: 768px){
+    .navbar-brand{
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    .navbar-brand > img{
+        height: 40px;
+    }
+    .nav-item{
+        margin-top: 1px;
+        background-color: #1A2B51;
+    }
+    .nav-link{
+        color: white;
+        padding-left: 20px;
+    }
+    .top-header-contact{
+        display: none;
+    }
+    .top-header-right{
+        width: 100%;
+        justify-content: center;
+    }
+    .top-header-authentication,
+    .top-header-display{
+        padding-top: 8px;
+    }
+}
+
+
+/* -------------------------------------------------
+------------ responsive section end -------------
+-------------------------------------------------- */
