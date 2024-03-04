@@ -15,6 +15,8 @@
   <li>Bcrypt-JS</li>
   <li>Render (API hosting)</li>
   <li>Formspree</li>
+  <li>AOS Animation</li>
+  <li>Vanilla-tilt</li>
   <li>React-icons</li>
   <li>React-toastify</li>
 </ul>
